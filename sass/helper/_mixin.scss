@@ -1,0 +1,18 @@
+@mixin button ($width, $height, $background-color, $margin){
+	width: $width;
+	height: $height;
+	background-color: $background-color;
+	margin: $margin;
+}
+
+@mixin block ($display, $width, $height, $margin: 0px){
+	display: $display;
+	width: $width;
+	height: $height;
+	margin: $margin;
+}
+
+@mixin min-max ($min, $max) {
+	min-height: $min;
+	max-height: $max;
+}
